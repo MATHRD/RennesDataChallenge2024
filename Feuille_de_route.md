@@ -54,4 +54,7 @@ AJOUTER LE MODELE ET L'EXPLICATION DERRI7RE
 
 ##Savoir vendre le projet (Pitch Elevator):
 Le coté marketing et la présentation représentent une part importante du projet. Nous avons donc consacrer une partie de notre temps afin de proposer une inovation pour entourer notre projet. Pour rappel, le Crédit Mutuel Arkéa souhaite offrir un fond d'investissement basé sur des portefeuilles d'actifs numériques. Notre idée est donc de basé notre stratégie marketing sur la facilité que ce fond permettra d'apporter à des invidus souhaitant investir dans ce nouvel actif sans y consacrer un temps colossal. En france, 9% de la population possède ou a possédé une cryptomonnaie ce qui signifie qu'une grande part de marché est prete à etre conquise. Cependant les francais restent sceptiques quant à la liquidité, aux formalités d'impositions ou encore la sureté des établissements proposant des actifs numériques (ex: Binance). La création de ce fond permettra donc de combler ces problèmes grace à la notoriéter et la masse d'une banquqe systémique francaise.
+Le marketing lié à l'ouverture de ce fond d'investissement proposera donc un rendement par rapport à un niveau de risque (cf création portfeuille) ainsi qu'une simplification de l'accès aux cryptomonnaies.
+
+
   
