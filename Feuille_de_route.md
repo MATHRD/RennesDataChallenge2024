@@ -32,7 +32,7 @@ Points faibles:
 - Machine Learning
 
 ## Approche du sujet:
-  Le sujet est lié au domaine de la finance associé à de la prédiction. Le double enjeux est de proposer un modèle précis tout en selectionant des variables interressantes (financières, macroéconomiqes, indicateur de sentiment via Deep Learning).
+  Le sujet est lié au domaine de la finance associé à de la prédiction. Le double enjeux est de proposer un modèle précis tout en selectionant des variables interressantes (financières, macroéconomiqes, indicateur de sentiment via Deep Learning). Le volume de données, les variables de sentiment comprise entre [-1;1], la dimension temporelle ou encore l'absence de données pour certaine date rend l'analyse plus complexe. C'est pourquoi nous avons du etre précautionneux lors du nettoyage de nos données. 
 
 # Filtrage des données:
 Nous avons d'abord réalisé un premier filtrage des variables expliquatives de la base de données à partir de nos connaissances macroéconomiqes et financières.
@@ -41,7 +41,7 @@ Nous avons ensuite sélectioner nos 5 cryptomonnaiess (Bitcoin, Ethereum, Binanc
 Ce nettoyage à été réalisé sur excel dans un premier temps.
 
 *A noté que nous nous sommes d'abords pencher sur la prédiction et l'analyse du prix et rendement du Bitcoin et à la fin réaliser nos prédictions sur les autres actifs numériques.
-Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre la variable à expliquer (Close_BTC) et les variables explicatives ainsi qu'avec des tests de significativités.
+Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre chaques variables à expliquer (Close_BTC, Close_ETH, Close_BNB, Close_LCT, Close_XRP) et les variables explicatives ainsi qu'avec des tests de significativités.
 lien code R (mettre les analyses économétriques de Arthur)
 
 Ajout des variables de rendements (returns) de chaques actifs en utilisant le logarithme(prix présent/prix passé). Cela permet de résoudre le problèmede non-stationnarité.
@@ -50,6 +50,7 @@ Ajout des variables de rendements (returns) de chaques actifs en utilisant le lo
 Plusieurs modèles de prédictions se présentaient à nous: le modèle ARIMA, la simulation de Monte-Carlo ou encore le modèle de Foret Aléatoire (Random Forest).
 Nous nous sommes orientés sur un Random Forest pour réaliser notre prédiction.
 (--mettre le lien vers le code--)
+Nous avons retiré, pour chaque Close_Price, le prix des autres Close_Prise car ils sont interconnectés 
 Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une précison à __%.
 
 ## Création du portfeuille optimal:
