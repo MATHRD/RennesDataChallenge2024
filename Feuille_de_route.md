@@ -19,7 +19,7 @@ Cela permet aux gestionnaires de portfeuille de prendre des décisions d'investi
 3. Critères d'évaluation
     -Présentation orale de la solution
     -Capacité prédictive du modèle (RSME, Taux de bonnes prévisions)
-    -Performancede la stratégie d'allocation (Ratio de Sharpe)
+    -Performance de la stratégie d'allocation (Ratio de Sharpe)
 
 ##Présentation équipe:
 Points forts:
@@ -44,10 +44,13 @@ Ce nettoyage à été réalisé sur excel dans un premier temps.
 Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre la variable à expliquer (Close_BTC) et les variables explicatives ainsi qu'avec des tests de significativités.
 lien code R (mettre les analyses économétriques de Arthur)
 
-##Modèle de prédiction:
-Plusieurs modèles de prédictions se présentait à nous: le modèle ARIMA, la simulation de Monte-Carlo ou encore le modèle de Foret Aléatoire (Random Forest).
+Ajout des variables de rendements (returns) de chaques actifs en utilisant le logarithme(prix présent/prix passé). Cela permet de résoudre le problèmede non-stationnarité.
 
-AJOUTER LE MODELE ET L'EXPLICATION DERRI7RE
+##Modèle de prédiction:
+Plusieurs modèles de prédictions se présentaient à nous: le modèle ARIMA, la simulation de Monte-Carlo ou encore le modèle de Foret Aléatoire (Random Forest).
+Nous nous sommes orientés sur un Random Forest pour réaliser notre prédiction.
+(--mettre le lien vers le code--)
+Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une précison à __%.
 
 ##Création du portfeuille optimal:
   Ce portefeuille se construit grace à la prédiction à 1 jours de nos 5 actifs. A partir de cela, nous pouvons leur attribuer un poids dans le portefeuilles selon notre aversion au risque.
