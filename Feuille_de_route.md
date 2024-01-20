@@ -41,5 +41,17 @@ Nous avons ensuite sélectioner nos 5 cryptomonnaiess (Bitcoin, Ethereum, Binanc
 Ce nettoyage à été réalisé sur excel dans un premier temps.
 
 *A noté que nous nous sommes d'abords pencher sur la prédiction et l'analyse du prix et rendement du Bitcoin et à la fin réaliser nos prédictions sur les autres actifs numériques.
-Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre la variable à expliquer (Close_BTC) et les variables explicatives.
+Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre la variable à expliquer (Close_BTC) et les variables explicatives ainsi qu'avec des tests de significativités.
+lien code R (mettre les analyses économétriques de Arthur)
+
+##Modèle de prédiction:
+Plusieurs modèles de prédictions se présentait à nous: le modèle ARIMA, la simulation de Monte-Carlo ou encore le modèle de Foret Aléatoire (Random Forest).
+
+AJOUTER LE MODELE ET L'EXPLICATION DERRI7RE
+
+##Création du portfeuille optimal:
+  Ce portefeuille se construit grace à la prédiction à 1 jours de nos 5 actifs. A partir de cela, nous pouvons leur attribuer un poids dans le portefeuilles selon notre aversion au risque.
+
+##Savoir vendre le projet (Pitch Elevator):
+Le coté marketing et la présentation représentent une part importante du projet. Nous avons donc consacrer une partie de notre temps afin de proposer une inovation pour entourer notre projet. Pour rappel, le Crédit Mutuel Arkéa souhaite offrir un fond d'investissement basé sur des portefeuilles d'actifs numériques. Notre idée est donc de basé notre stratégie marketing sur la facilité que ce fond permettra d'apporter à des invidus souhaitant investir dans ce nouvel actif sans y consacrer de temps. En france, 9% de la population possède ou a possédé une cryptomonnaie ce qui signifie qu'une grande part de marché est prete à etre conquis. Cependant les francais restent sceptiques quand à la liquidité, l, la sureté des établissements proposant des actifs numériques (ex: Binance). La création de ce fond permettra donc de combler ces problèmes grace à la notoriéter et la masse d'une banquqe systémique francaise.
   
