@@ -52,15 +52,17 @@ Nous nous sommes orientés sur un Random Forest pour réaliser notre prédiction
 Nous devons d'abord implémenter un lag de notre variable à expliquer avant de faire notre régression; y_lag = x + y
 On rajoute le rendement passé car le meilleur indicateur d'un rendement futur est le rendement passé.
 (--mettre le lien vers le code--)
-Nous avons retiré, pour chaque Close_Price, le prix des autres Close_Prise car ils sont interconnectés ainsi que la valeur du SP&500
+Graphique d'importance des variables:
 ![Figure_1](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/167582af-e24d-4d59-abcf-6ce323113e6e)
-
+Nous avons retiré, pour chaque Close_Price, le prix des autres Close_Prise car ils sont interconnectés ainsi que la valeur du SP&500.
 Cela nous modifie donc l'importance des variables:
 ![Figure_2](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/508ed58d-e48a-4829-b955-6c70e17f107f)
 
 
 Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une précison à __%.
 
+# Modèle de secours:
+Le domaine informatique et financier est exposé à des risques divers tels que la cybercriminalité, la volatilté extreme d'un titre ou encore des problèmes de con
 ## Création du portfeuille optimal:
   Ce portefeuille se construit grace à la prédiction à 1 jours de nos 5 actifs. A partir de cela, nous pouvons leur attribuer un poids dans le portefeuilles selon notre aversion au risque.
 
