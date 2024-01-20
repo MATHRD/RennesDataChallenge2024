@@ -1,11 +1,11 @@
-### Présentation du sujet
-Sujet 2: Forecasting and Tactical allocation for crypto-assets portfolios
+#### Présentation du sujet
+#Sujet 2: Forecasting and Tactical allocation for crypto-assets portfolios
 
 "En anticipant les rendements futurs, les sociétés de gestion peuvent améliorer la performance globale des portefeuilles qu'elles gèrent.
 Les modèles prédictifs aident à déterminer quels actifs ou combinaisons d'actifs sont susceptibles de fournir les meilleurs rendements.
 Cela permet aux gestionnaires de portfeuille de prendre des décisions d'investissements plus informées en allouant des ressources de manière optimale."
 
-#Points d'attention:
+##Points d'attention:
 1. Données
     -Données de prix et de volume pour 11 crypto-monnaies disctinctes
     -Données macroéconomques et financières
@@ -32,7 +32,7 @@ Points faibles:
   -Machine Learning
 
 ##Approche du sujet:
-  Le sujet est lié au domaine de la finance avec un besoin de pr
+  Le sujet est lié au domaine de la finance associé à de la prédiction. Le double enjeux est de proposer un modèle précis tout en selectionant des variables interressantes (financières, macroéconomiqes, indicateur de sentiment via Deep Learning).
 
 #Filtrage des données:
 Nous avons d'abord réalisé un premier filtrage des variables expliquatives de la base de données à partir de nos connaissances macroéconomiqes et financières.
