@@ -57,11 +57,12 @@ Nous devons d'abord implémenter un lag de notre variable à expliquer avant de 
 On rajoute le rendement passé car le meilleur indicateur d'un rendement futur est le rendement passé.
 (--mettre le lien vers le code--)
 Graphique d'importance des variables:
-![Figure_1](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/167582af-e24d-4d59-abcf-6ce323113e6e)
+![Figure_1](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/3117cf3b-2b84-4afd-a23b-3fd4e12d547a)
+
 Nous avons retiré, pour chaque Close_Price, le prix des autres Close_Prise car ils sont interconnectés ainsi que la valeur du SP&500.
 Cela nous modifie donc l'importance des variables:
-![Figure_2](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/508ed58d-e48a-4829-b955-6c70e17f107f)
 
+![Figure_2](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/c71a8746-084f-47a2-bd5e-6b36c8cf9a64)
 
 Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une précison à __%.
 
