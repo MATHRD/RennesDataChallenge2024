@@ -44,16 +44,21 @@ Ce nettoyage à été réalisé sur excel dans un premier temps.
 Le deuxième filtrage a été réalisé sur R via des analyses de corrélations entre chaques variables à expliquer (Close_BTC, Close_ETH, Close_BNB, Close_LCT, Close_XRP) et les variables explicatives ainsi qu'avec des tests de significativités.
 lien code R (mettre les analyses économétriques de Arthur)
 
-Ajout des variables de rendements (returns) de chaques actifs en utilisant le logarithme(prix présent/prix passé). Cela permet de résoudre le problèmede non-stationnarité.
+Ajout des variables de rendements (returns) de chaques actifs en utilisant le logarithme(prix présent/prix passé). Cela permet de résoudre le problème de non-stationnarité.
 
 ## Modèle de prédiction:
 Plusieurs modèles de prédictions se présentaient à nous: le modèle ARIMA, la simulation de Monte-Carlo ou encore le modèle de Foret Aléatoire (Random Forest).
 Nous nous sommes orientés sur un Random Forest pour réaliser notre prédiction.
+Nous devons d'abord implémenter un lag de notre variable à expliquer avant de faire notre régression; y_lag = x + y
+On rajoute le rendement passé car le meilleur indicateur d'un rendement futur est le rendement passé.
 (--mettre le lien vers le code--)
 Nous avons retiré, pour chaque Close_Price, le prix des autres Close_Prise car ils sont interconnectés ainsi que la valeur du SP&500
 ![Figure_1](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/167582af-e24d-4d59-abcf-6ce323113e6e)
+
 Cela nous modifie donc l'importance des variables:
 ![Figure_2](https://github.com/MATHRD/RennesDataChallenge2024/assets/147998549/508ed58d-e48a-4829-b955-6c70e17f107f)
+
+
 Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une précison à __%.
 
 ## Création du portfeuille optimal:
