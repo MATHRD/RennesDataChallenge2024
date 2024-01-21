@@ -69,6 +69,7 @@ Notre modèle obtient un Root-mean-square deviation (RMSE) de ___ ainsi qu'une p
 # Modèle de secours:
 Le domaine informatique et financier est exposé à des risques divers tels que la cybercriminalité, la volatilté extreme d'un titre ou encore des problèmes de connection qui pourrait entraver la récoltes des variables expliquatives.
 Nous avons donc décider de proposer un modèle de secours basé sur la simulation de Monte-Carlo (la prédiction du rendement t+1 se fait gràce à des calucls stochastiques et ne repose pas sur des variables explicatives).
+Code/RF_VS_MT.py
 
 
 ## Création du portfeuille optimal:
