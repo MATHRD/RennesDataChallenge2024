@@ -1,6 +1,6 @@
 # RennesDataChallenge2024
 Team ADAM composé de:
-  Mathys Rattiname-Delaffon
+- Mathys Rattiname-Delaffon
   Antoine Kerlaouezo
   Arthur Le Net
   Daniel Degan
